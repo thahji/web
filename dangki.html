@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Đăng kí</title>
+    <script src="https://kit.fontawesome.com/b356ad9dc8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/dangki.css" />
+  </head>
+  <body>
+    <div class="container">
+      <section class="row flex">
+          <div class="heade__top-left">
+              <span>PetShop - Chăm sóc tốt nhất cho thú cưng</span>
+          </div>
+
+          <nav class="header__top-right">
+              <ul class="header__top-list">
+                  <li class="header__top-item">
+                      <a href="dangki.html" class="header__top-link">Đăng ký</a>
+                  </li>
+                  <li class="header__top-item">
+                      <a href="dangnhap.html" class="header__top-link">Đăng nhập</a>
+                  </li>
+              </ul>
+          </nav>
+      </section>
+  </div>
+    <!-- header -->
+    <header class="header">
+      <div class="header-top">
+        <div class="header-section-one">
+          <a href="tc.html"> <img src="./image/logo.png" alt="Logo" /></a>
+          <input type="text" name="find" id="find" placeholder="Tìm kiếm tại đây..."/>
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <div class="header-section-two">
+          <a href="#" class="cart-phone">
+            <i class="fa-solid fa-phone"></i>
+            <p>0123456789</p>
+          </a>
+          <section class="cart-wrap">
+            <a href="cart.html" class="cart-link">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <small class="cart-notice">3</small>
+            </a>
+          </section>
+        </div>
+      </div>
+    </header>
+    <!-- End header -->
+    <!-- Menu bar -->
+    <div class="menu-bar">
+      <ul>
+        <li><a href="#" id="danhmuc"><i class="fa-solid fa-bars"></i>Danh mục sản phẩm</a>
+          <ul class="sub-menu">
+            <li><a href="spdog.html"><i class="fa-solid fa-dog"></i>Sản phẩm cho chó</a></li>
+            <li><a href="spcat.html"><i class="fa-solid fa-cat"></i>Sản phẩm cho mèo</a></li>
+            <li><a href=""><i class="fa-solid fa-bone"></i>Dụng cụ ăn uống</a></li>
+            <li><a href=""><i class="fa-solid fa-scissors"></i>Dụng cụ làm đẹp </a></li>
+            <li><a href=""><i class="fa-solid fa-capsules"></i>Thuốc & Thực phẩm chức năng</a></li>
+          </ul>
+        </li>
+        <li><a href="tc.html" id="trangchu">Trang chủ</a></li>
+        <li><a href="intro.html" id="intro-products">Giới thiệu</a></li>
+        <li><a href="spdog.html" id="dog-products">Sản phẩm cho chó</a></li>
+        <li><a href="spcat.html" id="cat-product">Sản phẩm cho mèo</a></li>
+        <li><a href="contact.html" id="contact">Liên hệ</a></li>
+        <li><a href="tintuc.html" id="blog">Tin tức</a></li>
+      </ul>
+    </div>
+    <!-- End menu bar -->
+
+    <div class="container1">
+      <div class="form-container">
+                <h2>Đăng ký</h1>
+                <div class="input-box">
+                  <input
+                    id="account-field-register"
+                    type="text"
+                    placeholder="Tên đăng nhập"
+                  />
+                  <i class="fa-solid fa-user"></i>
+                  <p id="error-acc-register"></p>
+                </div>
+                <div class="input-box">
+                  <input type="password" placeholder="Mật khẩu" />
+                  <i id="show-hide-pass-register" class="fa-solid fa-lock"></i>
+                  <p id="error-pass-register"></p>
+                </div>
+                <div class="input-box">
+                  <input
+                    id="input-password-again"
+                    type="password"
+                    placeholder="Nhập lại mật khẩu"
+                  />
+                  <i id="show-hide-pass-register-again" class="fa-solid fa-lock"></i>
+                  <p id="error-pass-again-register"></p>
+                </div>
+      
+                <div class="register-login-link">
+                  <p>
+                    Bạn đã có tài khoản?
+                    <a href="dangnhap.html" id="login-link">Đăng nhập ngay!</a>
+                  </p>
+                </div>
+                <button id="btn-login" type="submit" class="button">Đăng ký</button>
+              <p>Hoặc đăng nhập bằng</p>
+              <div class="social-login">
+                <p><i class="fa-brands fa-facebook-f" style="color: #ffffff;"></i> Facebook</p> 
+                <p><i class="fa-brands fa-google-plus-g" style="color: #ffffff;"></i>Google</p>
+              </div>
+      </div>
+  </div>
+    
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-section">
+        <div class="introduce">
+          <h2>VỀ CHÚNG TÔI</h2>
+          <p>
+            PetShop là cửa hàng luôn cung cấp các sản phẩm tốt nhất cho thú cưng các bạn
+            trên khắp cả nước. Chúng tôi sẽ liên tục cập 
+            nhật những sản phẩm, dịch vụ chất lượng nhất dành cho thú cưng.
+            <br> <br>      
+          </p>
+          <img src="./image/xac-nhan-bct.png" alt="Xác nhận bộ công thương" />
+        </div>
+        <div class="policy">
+          <h2>CHÍNH SÁCH MUA HÀNG</h2>
+          <ul>
+            <li><a href="#">Hình thức thanh toán</a></li>
+            <li><a href="#">Điều khoản dịch vụ</a></li>
+            <li><a href="#">Chính sách vận chuyển</a></li>
+            <li><a href="#">Chính sách đổi trả</a></li>
+            <li><a href="#">Chính sách bảo mật thông tin</a></li>
+          </ul>
+        </div>
+        <div class="contact">
+          <h2>THÔNG TIN LIÊN HỆ</h2>
+          <div class="cover-contact">
+            <img src="./image/address.svg" alt="địa chỉ" />
+            <p>18 Hạnh Thông, Phường 3, Gò Vấp, TP.HCM</p>
+          </div>
+          <div class="cover-contact">
+            <img src="./image/phone.svg" alt="SĐT" />
+            <p>0123.456.789</p>
+          </div>
+          <div class="cover-contact">
+            <img src="./image/email.svg" alt="Email" />
+            <p>petshop@gmail.com</p>
+          </div>
+          <h3>Kết nối với chúng tôi</h3>
+            <div class="footer-social">
+              <a href="#" class="footer-social-link">
+                  <img src="image/facebook.png">
+              </a>
+              <a href="#" class="footer-social-link">
+                  <img src="image/youtube.png">
+              </a>
+              <a href="#" class="footer-social-link">
+                  <img src="image/tiktok.png">
+              </a>
+              <a href="#" class="footer-social-link">
+                  <img src="image/zalo.png">
+              </a>
+            </div>
+        </div>
+      </div>
+      
+      <section class="footer__bottom">
+        <div class="container">
+            <div class="row">
+                <span class="footer__bottom-content">@Bản quyền thuộc về PetShop | Thiết kế bởi team TT2 </span>
+            </div>
+        </div>
+    </section>
+    </footer>
+    <!-- End Footer -->
+    <script src="js/login.js"></script>
+  </body>
+</html>

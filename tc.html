@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trang chủ</title>
+    <script src="https://kit.fontawesome.com/b356ad9dc8.js" crossorigin="anonymous"></script>
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/tc.css" />
+    <link rel="stylesheet" href="css/chat.css" />
+
+  </head>
+  <body>
+    <div class="container">
+      <section class="row flex">
+          <div class="heade__top-left">
+              <span>PetShop - Chăm sóc tốt nhất cho thú cưng</span>
+          </div>
+
+          <nav class="header__top-right">
+              <ul class="header__top-list">
+                  <li class="header__top-item">
+                      <a href="dangki.html" class="header__top-link">Đăng ký</a>
+                  </li>
+                  <li class="header__top-item">
+                      <a href="dangnhap.html" class="header__top-link">Đăng nhập</a>
+                  </li>
+              </ul>
+          </nav>
+      </section>
+  </div>
+    <!-- header -->
+    <header class="header">
+      <div class="header-top">
+        <div class="header-section-one">
+          <a href="tc.html"> <img src="./image/logo.png" alt="Logo" /></a>
+          <input type="text" name="find" id="find" placeholder="Tìm kiếm tại đây..."/>
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <div class="header-section-two">
+          <a href="#" class="cart-phone">
+            <i class="fa-solid fa-phone"></i>
+            <p>0123456789</p>
+          </a>
+          <section class="cart-wrap">
+            <a href="cart.html" class="cart-link">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <small class="cart-notice">3</small>
+            </a>
+          </section>
+        </div>
+      </div>
+    </header>
+    <!-- End header -->
+    <!-- Menu bar -->
+    <div class="menu-bar">
+      <ul>
+        <li><a href="#" id="danhmuc"><i class="fa-solid fa-bars"></i>Danh mục sản phẩm</a>
+          <ul class="sub-menu">
+            <li><a href="spdog.html"><i class="fa-solid fa-dog"></i>Sản phẩm cho chó</a></li>
+            <li><a href="spcat.html"><i class="fa-solid fa-cat"></i>Sản phẩm cho mèo</a></li>
+            <li><a href=""><i class="fa-solid fa-bone"></i>Dụng cụ ăn uống</a></li>
+            <li><a href=""><i class="fa-solid fa-scissors"></i>Dụng cụ làm đẹp </a></li>
+            <li><a href=""><i class="fa-solid fa-capsules"></i>Thuốc & Thực phẩm chức năng</a></li>
+          </ul>
+        </li>
+        <li><a href="tc.html" id="trangchu">Trang chủ</a></li>
+        <li><a href="intro.html" id="intro-products">Giới thiệu</a></li>
+        <li><a href="spdog.html" id="dog-products">Sản phẩm cho chó</a></li>
+        <li><a href="spcat.html" id="cat-product">Sản phẩm cho mèo</a></li>
+        <li><a href="contact.html" id="contact">Liên hệ</a></li>
+        <li><a href="tintuc.html" id="blog">Tin tức</a></li>
+      </ul>
+    </div>
+    <!-- End menu bar -->
+
+    <div class="slider">
+        <div class="list">
+            <div class="item">
+                <img src="image/banner.JPEG" alt="">
+            </div>
+            <div class="item">
+                <img src="image/khuyen-mai-ganador-minino-m1t1_1880_x_720_px.webp" alt="">
+            </div>
+            <div class="item">
+                <img src="image/khuyen-mai-jungle-monster-giam-40_1880_x_720_px.webp" alt="">
+            </div>
+            <div class="item">
+                <img src="image/4.webp" alt="">
+            </div>
+            <div class="item">
+                <img src="image/cuối.webp" alt="">
+            </div>
+        </div>
+        <div class="buttons">
+            <button id="prev"><</button>
+            <button id="next">></button>
+        </div>
+        <ul class="dots">
+            <li class="active"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div> 
+  <!-- section 1: Danh mục sản phẩm-->
+      <div class="section1">
+        <div class="section1-product">
+          <ul>
+            <li>
+              <a href="#">
+                <img src="./image/hat-cho.png" alt="Hạt cho chó" />
+                <span>Hạt cho chó</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="./image/xuong.png" alt="Snacks, xương gặp cho chó" />
+                <span>Snacks, xương gặm <br />cho chó</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="./image/hat-meo.png" alt="Hạt cho mèo" />
+                <span>Hạt cho mèo</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="./image/pate.png" alt="Pate cho mèo" />
+                <span>Pate cho mèo</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="./image/giuong.png" alt="Ổ đệm, giường" />
+                <span>Ổ đệm, giường</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="./image/do-choi.png" alt="Đồ chơi chó mèo" />
+                <span>Đồ chơi chó mèo</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- section 1 -->
+  
+      <!-- Section 2: Sản phẩm best -->
+      <div class="section2">
+        <div class="product">
+          <div class="product-title">
+            <p>TOP SẢN PHẨM BÁN CHẠY NHẤT</p>
+            <a href="#">Xem thêm ></a>
+          </div>
+          <div class="product-list">
+            <div class="product-item">
+              <img src="image/sp1.png" alt="best2" />
+              <p class="product-item-tittle">
+                Thức Ăn Hạt Cho Mèo Con Royal Canin Kitten 36
+              </p>
+              <div class="product-item-rate-wrap">
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+             </div>
+              <p class="gia-tien">125.000<span>đ</span><span class="gia-cu">169.000<span style="font-size: 16px">đ</span></span></p>
+              <p class="product-item-sale">-15%</p>
+              <div class="product-item-btn-wrap">
+                <button class="product-item-btn addToCart">Giỏ hàng</button>
+                <a href="sp1.html" class="product-item-btn details">Chi tiết</a>
+              </div>
+            </div>
+
+            <div class="product-item">
+              <img src="./image/product-new-3.png" alt="best1" />
+              <p class="product-item-tittle">
+                Pate Mèo Royal Canin Mother Babycat (Lon
+                195g)</p>
+              <div class="product-item-rate-wrap">
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              </div>
+              <p class="gia-tien">55.000<span>đ</span><span class="gia-cu">79.000<span style="font-size: 16px">đ</span></span></p>
+              <p class="product-item-sale">-10%</p>
+              <div class="product-item-btn-wrap">
+                <button class="product-item-btn addToCart">Giỏ hàng</button>
+                <a href="sp2.html" class="product-item-btn details">Chi tiết</a>
+              </div>
+            </div>
+
+            <div class="product-item">
+              <img src="image/thuc-an-cho-cho-con-royal-canin-poodle-puppy.webp" width="250" height="250" alt="best3" />
+              <p class="product-item-tittle">
+                Thức Ăn Hạt Cho Chó Con Poodle Royal Canin Poodle Puppy
+              </p>
+              <div class="product-item-rate-wrap">
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              </div>
+              <p class="gia-tien">182.000<span>đ</span><span class="gia-cu">209.000<span style="font-size: 16px">đ</span></span></p>
+              <p class="product-item-sale">-15%</p>
+              <div class="product-item-btn-wrap">
+                <button class="product-item-btn addToCart">Giỏ hàng</button>
+                <button class="product-item-btn details">Chi tiết</button>
+              </div>
+            </div>
+            <div class="product-item">
+              <img src="image/sp3.png" alt="best4" />
+              <p class="product-item-tittle">
+                Thức Ăn Hạt Cho Mèo Sỏi Thận Royal Canin Urinary S/O
+              </p>
+              <div class="product-item-rate-wrap">
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              </div>
+              <p class="gia-tien">169.000<span>đ</span><span class="gia-cu">189.000<span style="font-size: 16px">đ</span></span></p>
+              <p class="product-item-sale">-10%</p>
+              <div class="product-item-btn-wrap">
+                <button class="product-item-btn addToCart">Giỏ hàng</button>
+                <button class="product-item-btn details">Chi tiết</button>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="product">
+        <div class="product-list">
+          <div class="product-item">
+            <img src="image/sp5.png" alt="best5" />
+            <p class="product-item-tittle">
+              Xúc Xích Dinh Dưỡng Taotaopet Vị Phô Mai 15g*30 cây
+            </p>
+            <div class="product-item2-rate-wrap">
+              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+            </div>
+            <p class="gia-tien">65.000<span>đ</span><span class="gia-cu">69.000<span style="font-size: 16px">đ</span></span></p>
+            <p class="product-item-sale">-5%</p>
+              <div class="product-item-btn-wrap">
+                <button class="product-item-btn addToCart">Giỏ hàng</button>
+                <button class="product-item-btn details">Chi tiết</button>
+              </div>
+          </div>
+          <div class="product-item">
+            <img src="image/sp7.png" alt="best6" />
+            <p class="product-item-tittle">
+              Balo Trong Suốt Mẫu Đẹp
+            </p>
+            <div class="product-item-rate-wrap">
+              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+            </div>
+            <p class="gia-tien">299.000<span>đ</span><span class="gia-cu">359.000<span style="font-size: 16px">đ</span></span></p>
+              <p class="product-item-sale">-25%</p>
+              <div class="product-item-btn-wrap">
+                <button class="product-item-btn addToCart">Giỏ hàng</button>
+                <button class="product-item-btn details">Chi tiết</button>
+              </div>
+          </div>
+          <div class="product-item">
+            <img src="image/sp9.png" alt="best7" />
+            <p class="product-item-tittle">
+              Đai đeo ngực hình áo vest sành điệu kèm dây dắt cho chó mèo
+            </p>
+            <div class="product-item-rate-wrap">
+              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+            </div>
+            <p class="gia-tien">80.000-100.000<span>đ</span></p>
+              <p class="product-item-sale">-10%</p>
+              <div class="product-item-btn-wrap">
+                <button class="product-item-btn addToCart">Giỏ hàng</button>
+                <button class="product-item-btn details">Chi tiết</button>
+              </div>
+          </div>
+          <div class="product-item">
+            <img src="./image/product-sale-4.png" alt="Sale 1" />
+            <p class="product-item-tittle">
+              DORRIKEY Kềm cắt móng cho thú cưng tiện dụng
+            </p>
+            <div class="product-item-rate-wrap">
+              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+            </div>
+            <p class="gia-tien">20.000-27.000<span>đ</span></p>
+              <p class="product-item-sale">-5%</p>
+              <div class="product-item-btn-wrap">
+                <button class="product-item-btn addToCart">Giỏ hàng</button>
+                <button class="product-item-btn details">Chi tiết</button>
+              </div>
+          </div>
+        </div>
+        </div>
+      </div>
+      </div>
+      <!-- End Section 2 -->
+  
+    <div class="bestselling__banner">
+      <div class="bestselling__banner-left">
+          <img src="https://paddy.vn/cdn/shop/files/dog_banner_1370x.jpg?v=1670135189" alt="Banner quảng cáo"
+          class="bestselling__banner-left-img">
+      </div>
+      <div class="bestselling__banner-right">
+          <img src="https://paddy.vn/cdn/shop/files/cat_banner_1370x.jpg?v=1670135516" alt="Banner quảng cáo"
+          class="bestselling__banner-right-img">
+      </div>
+   </div>
+  
+      <!-- Section 3: Sản phẩm mới -->
+      <div class="section3">
+        <div class="product1">
+          <div class="product-title1">
+            <p>SẢN PHẨM MỚI: <span id="newIndicator">NEW</span></p>
+            <a href="#">Xem thêm ></a>
+          </div>
+          <div class="product-list1">
+            <div class="product-new">
+              <img src="./image/product-new-1.png" alt="new 1" />
+              <p class="product-new-tittle">
+                Tông đơ tỉa lông giảm tiếng ồn có đèn chiếu Pakeway cho chó mèo
+              </p>
+              <div class="product-new-rate-wrap">
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              </div>
+              <p class="product-new-price">230.000đ</p>
+              <div class="product-item-btn-wrap">
+                <button class="product-item-btn addToCart">Giỏ hàng</button>
+                <button class="product-item-btn details">Chi tiết</button>
+              </div>
+            </div>
+  
+            <div class="product-new">
+              <img src="image/new2.png" alt="new 2" />
+              <p class="product-new-tittle">
+                MICONA Sữa Tắm Phòng và Trị Nấm Da Hiệu Quả
+              </p>
+              <div class="product-new-rate-wrap">
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              </div>
+              <p class="product-new-price">170.000đ</p>
+              <div class="product-item-btn-wrap">
+                <button class="product-item-btn addToCart">Giỏ hàng</button>
+                <button class="product-item-btn details">Chi tiết</button>
+              </div>
+            </div>
+  
+            <div class="product-new">
+              <img src="image/new3.png" alt="new 3" />
+              <p class="product-new-tittle">
+                Nệm Cho Chó Mèo - Ổ Nệm Giường Nằm Nơ 2 In 1 Cho Chó Mèo
+              </p>
+              <div class="product-new-rate-wrap">
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              </div>
+              <p class="product-new-price">350.000đ</p>
+              <div class="product-item-btn-wrap">
+                <button class="product-item-btn addToCart">Giỏ hàng</button>
+                <button class="product-item-btn details">Chi tiết</button>
+              </div>
+            </div>
+  
+            <div class="product-new">
+              <img src="image/new4.png" alt="new 4" />
+              <p class="product-new-tittle">
+                DOGGY MAN Bánh Thưởng Cho Chó - Xương Nơ Hương Gà
+              </p>
+              <div class="product-new-rate-wrap">
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              </div>
+              <p class="product-new-price">52.000đ</p>
+              <div class="product-item-btn-wrap">
+                <button class="product-item-btn addToCart">Giỏ hàng</button>
+                <button class="product-item-btn details">Chi tiết</button>
+              </div>
+            </div>
+            <div class="product-new">
+              <img src="image/new1.png" alt="new 1" />
+              <p class="product-new-tittle">
+                Bát Ăn Chén Ăn-Khay Ăn Chống Kiến Có Bình Nước Cho Chó Mèo
+              </p>
+              <div class="product-new-rate-wrap">
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+              </div>
+              <p class="product-new-price">120.000đ</p>
+              <div class="product-item-btn-wrap">
+                <button class="product-item-btn addToCart">Giỏ hàng</button>
+                <button class="product-item-btn details">Chi tiết</button>
+              </div>
+            </div>
+          </div>
+      <!-- End section 3-->
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-section">
+        <div class="introduce">
+          <h2>VỀ CHÚNG TÔI</h2>
+          <p>
+            PetShop là cửa hàng luôn cung cấp các sản phẩm tốt nhất cho thú cưng các bạn
+            trên khắp cả nước. Chúng tôi sẽ liên tục cập 
+            nhật những sản phẩm, dịch vụ chất lượng nhất dành cho thú cưng.
+            <br> <br>      
+          </p>
+          <img src="image/xac-nhan-bct.png" alt="Xác nhận bộ công thương" />
+        </div>
+        <div class="policy">
+          <h2>CHÍNH SÁCH MUA HÀNG</h2>
+          <ul>
+            <li><a href="#">Hình thức thanh toán</a></li>
+            <li><a href="#">Điều khoản dịch vụ</a></li>
+            <li><a href="#">Chính sách vận chuyển</a></li>
+            <li><a href="#">Chính sách đổi trả</a></li>
+            <li><a href="#">Chính sách bảo mật thông tin</a></li>
+          </ul>
+        </div>
+        <div class="contact">
+          <h2>THÔNG TIN LIÊN HỆ</h2>
+          <div class="cover-contact">
+            <img src="./image/address.svg" alt="địa chỉ" />
+            <p>18 Hạnh Thông, Phường 3, Gò Vấp, TP.HCM</p>
+          </div>
+          <div class="cover-contact">
+            <img src="./image/phone.svg" alt="SĐT" />
+            <p>0123.456.789</p>
+          </div>
+          <div class="cover-contact">
+            <img src="./image/email.svg" alt="Email" />
+            <p>petshop@gmail.com</p>
+          </div>
+          <h3>Kết nối với chúng tôi</h3>
+            <div class="footer-social">
+              <a href="#" class="footer-social-link">
+                  <img src="image/facebook.png">
+              </a>
+              <a href="#" class="footer-social-link">
+                  <img src="image/youtube.png">
+              </a>
+              <a href="#" class="footer-social-link">
+                  <img src="image/tiktok.png">
+              </a>
+              <a href="#" class="footer-social-link">
+                  <img src="image/zalo.png">
+              </a>
+            </div>
+        </div>
+      </div>
+      
+      <section class="footer__bottom">
+        <div class="container">
+            <div class="row">
+                <span class="footer__bottom-content">@Bản quyền thuộc về PetShop | Thiết kế bởi team TT2 </span>
+            </div>
+        </div>
+    </section>
+    </footer>
+
+    <div class="main__modal">
+      <div class="modal__overlay"></div>
+      <div class="modal__body">
+          <!-- resgist form -->
+          <div class="sale-off">
+              <div class="sale-off__container">
+                  <h2 class="sale-off__heading">
+                      Nhận phiếu giảm giá <span class="sale-off__sp">30%</span>  khi mua <br> <span class="sale-off__name">Thức Ăn Hạt Cho Mèo Con Royal Canin Kitten 36</span> 
+                  </h2>
+                  <div class="sale-off__img">
+                      <img src="image/thuc-an-cho-meo-con-royal-canin-kitten-36.webp"  width="250" height="250">
+                  </div>
+                  
+                  <a href="product.html" class="sale-off__link">
+                      <a href="sp1.html" class="sale-off__btn">Mua ngay</a>
+                  </a>
+              </div>
+
+              <div class="sale-off__close">
+                  x
+              </div>
+          </div>
+      </div>
+  </div>
+    <!-- End Footer -->
+    <script src="js/app.js"></script>
+
+    <div class="chatbox-wrapper">
+      <div class="chatbox-toggle">
+        <i class='bx bx-message-dots'></i>
+      </div>
+      <div class="chatbox-message-wrapper">
+        <div class="chatbox-message-header">
+          <div class="chatbox-message-profile">
+            <img src="image/z5343675416722_5b79cb7f8e618fd5c685bdeedaf2ad2b.jpg" alt="" class="chatbox-message-image">
+            <div>
+              <h4 class="chatbox-message-name">Chat với PetShop</h4>
+            </div>
+          </div>
+          <div class="chatbox-message-dropdown">
+            <i class='bx bx-dots-vertical-rounded chatbox-message-dropdown-toggle'></i>
+            <ul class="chatbox-message-dropdown-menu">
+              <li>
+                <a href="#">Truy cập Trang Facebook </a>
+              </li>
+              <li>
+                <a href="#">Thêm Messenger vào trang web của bạn</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="chatbox-message-content">
+          <h4 class="chatbox-message-no-message">Xin chào! PetShop rất vui được hỗ trợ bạn.</h4>
+        </div>
+        <div class="chatbox-message-bottom">
+          <form action="#" class="chatbox-message-form">
+            <textarea rows="1" placeholder="Nhập tin nhắn..." class="chatbox-message-input"></textarea>
+            <button type="submit" class="chatbox-message-submit"><i class='bx bx-send' ></i></button>
+          </form>
+        </div>
+      </div>
+    </div>
+  
+    <script src="js/script.js"></script>
+
+  </body>
+</html>

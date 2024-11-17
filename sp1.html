@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chi tiết sản phẩm</title>
+    <script src="https://kit.fontawesome.com/b356ad9dc8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/sp1.css" />
+  </head>
+  <body>
+    <div class="container">
+      <section class="row flex">
+          <div class="heade__top-left">
+              <span>PetShop - Chăm sóc tốt nhất cho thú cưng</span>
+          </div>
+
+          <nav class="header__top-right">
+              <ul class="header__top-list">
+                  <li class="header__top-item">
+                      <a href="dangki.html" class="header__top-link">Đăng ký</a>
+                  </li>
+                  <li class="header__top-item">
+                      <a href="dangnhap.html" class="header__top-link">Đăng nhập</a>
+                  </li>
+              </ul>
+          </nav>
+      </section>
+  </div>
+    <!-- header -->
+    <header class="header">
+        <div class="header-top">
+          <div class="header-section-one">
+            <a href="tc.html"> <img src="./image/logo.png" alt="Logo" /></a>
+            <input type="text" name="find" id="find" placeholder="Tìm kiếm tại đây..."/>
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <div class="header-section-two">
+            <a href="#" class="cart-phone">
+              <i class="fa-solid fa-phone"></i>
+              <p>0123456789</p>
+            </a>
+            <section class="cart-wrap">
+              <a href="cart.html" class="cart-link">
+                  <i class="fa-solid fa-cart-shopping"></i>
+                  <small class="cart-notice">3</small>
+              </a>
+            </section>
+          </div>
+        </div>
+      </header>
+    <!-- End header -->
+    <!-- Menu bar -->
+    <div class="menu-bar">
+      <ul>
+        <li><a href="#" id="danhmuc"><i class="fa-solid fa-bars"></i>Danh mục sản phẩm</a>
+            <ul class="sub-menu">
+              <li><a href="spdog.html"><i class="fa-solid fa-dog"></i>Sản phẩm cho chó</a></li>
+              <li><a href="spcat.html"><i class="fa-solid fa-cat"></i>Sản phẩm cho mèo</a></li>
+              <li><a href=""><i class="fa-solid fa-bone"></i>Dụng cụ ăn uống</a></li>
+              <li><a href=""><i class="fa-solid fa-scissors"></i>Dụng cụ làm đẹp </a></li>
+              <li><a href=""><i class="fa-solid fa-capsules"></i>Thuốc & Thực phẩm chức năng</a></li>
+            </ul>
+          </li>
+          <li><a href="tc.html" id="trangchu">Trang chủ</a></li>
+          <li><a href="intro.html" id="intro-products">Giới thiệu</a></li>
+          <li><a href="spdog.html" id="dog-products">Sản phẩm cho chó</a></li>
+          <li><a href="spcat.html" id="cat-product">Sản phẩm cho mèo</a></li>
+          <li><a href="contact.html" id="contact">Liên hệ</a></li>
+          <li><a href="tintuc.html" id="blog">Tin tức</a></li>
+      </ul>
+    </div>
+    <!-- End menu bar -->
+
+    <!-- product -->
+    <div class="flex-box">
+      <div class="left">
+          <div class="big-img">
+              <img src="https://paddy.vn/cdn/shop/files/thuc-an-cho-meo-con-royal-canin-kitten-36.jpg?v=1711944001">
+          </div>
+          <div class="images">
+              <div class="small-img">
+                  <img src="https://paddy.vn/cdn/shop/products/thuc-an-hat-meo-con-royal-canin-kitten-36-paddy-5.jpg?v=1711944001" onclick="showImg(this.src)">
+              </div>
+              <div class="small-img">
+                  <img src="https://paddy.vn/cdn/shop/products/thuc-an-hat-meo-con-royal-canin-kitten-36-paddy-4.jpg?v=1711944001" onclick="showImg(this.src)">
+              </div>
+              <div class="small-img">
+                  <img src="https://paddy.vn/cdn/shop/files/thuc-an-cho-meo-con-royal-canin-kitten-36.png?v=1711944001" onclick="showImg(this.src)">
+              </div>
+              <div class="small-img">
+                  <img src="https://cf.shopee.vn/file/b712bc0e16fb690ec07a596d6cca427a" onclick="showImg(this.src)">
+              </div>
+          </div>
+      </div>
+
+      <div class="right">
+          <div class="url">Trang chủ > Product</div>
+          <div class="pname">Thức Ăn Hạt Cho Mèo Con Royal Canin Kitten 36</div>
+          <div class="ratings">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+          </div>
+          <div class="product-meta">
+              <span>Thương hiệu:</span> Royal Canin</div>
+          <div class="size">
+              <p>Size:</p>
+              <div class="psize active">400g</div>
+              <div class="psize">2kg</div>
+              <div class="psize">4kg</div>
+              <div class="psize">10kg</div>
+          </div>
+          <div class="product-price">
+              <span class="product-price-old">199.000₫</span>
+              <span class="product-price-new">127.000₫</span>
+          </div>
+          <div class="quantity">
+              <p>Số lượng :</p>
+              <input type="number" min="1" max="5" value="1">
+          </div>
+          <div class="btn-box">
+              <button class="cart-btn">Thêm Vào Giỏ Hàng</button>
+              <button class="buy-btn">Mua ngay</button>
+          </div>
+      </div>
+
+      <aside class="policy-aside">
+          <div class="product__aside-top">
+              <div class="product__aside-top-item">
+                  <img src="image/shipper.png">
+                  <div class="product__aside-top-item-text">
+                      <p>
+                          Giao hàng nhanh chóng
+                      </p>
+                      <span>
+                          Chỉ trong vòng 24h
+                      </span>
+                  </div>
+              </div>
+              <div class="product__aside-top-item">
+                  <img src="image/brand.png">
+                  <div class="product__aside-top-item-text">
+                      <p>
+                          Sản phẩm chính hãng
+                      </p>
+                      <span>
+                          Sản phẩm nhập khẩu 100%
+                      </span>
+                  </div>
+              </div>
+              <div class="product__aside-top-item">
+                  <img src="image/less.png">
+                  <div class="product__aside-top-item-text">
+                      <p>
+                          Mua hàng tiết kiệm
+                      </p>
+                      <span>
+                          Rẻ hơn từ 10% đến 30%
+                      </span>
+                  </div>
+              </div>
+          </div>
+          
+          <div class="product__aside-bottom">
+              <h3 class="product__aside-heading">
+                  Có thể bạn thích
+              </h3>
+          <div class="product__aside-list">
+              <div class="product__aside-item product__aside-item--border">
+                  <div class="product__aside-img-wrap">
+                      <img src="image/sp7.png" class="product__aside-img">
+                  </div>
+                  <div class="product__aside-title">
+                      <a href="#" class="product__aside-link">
+                          <h4 class="product__aside-link-heading"> Balo Trong Suốt Mẫu Đẹp</h4>
+                      </a>
+
+                      <div class="product__aside-rate-wrap">
+                          <i class="fas fa-star product__aside-rate"></i>
+                          <i class="fas fa-star product__aside-rate"></i>
+                          <i class="fas fa-star product__aside-rate"></i>
+                          <i class="fas fa-star product__aside-rate"></i>
+                          <i class="fas fa-star product__aside-rate"></i>
+                      </div>
+
+                      <div class="product__aside-price">
+                          <span class="product__aside-price-current">
+                              299.000đ
+                          </span>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="product__aside-item product__aside-item--border">
+                  <div class="product__aside-img-wrap">
+                      <img src="image/sp1.png" class="product__aside-img">
+                  </div>
+                  <div class="product__aside-title">
+                      <a href="#" class="product__aside-link">
+                          <h4 class="product__aside-link-heading"> Thức Ăn Hạt Cho Mèo Con Royal Canin Kitten 36</h4>
+                      </a>
+                      
+                      <div class="product__aside-rate-wrap">
+                          <i class="fas fa-star product__aside-rate"></i>
+                          <i class="fas fa-star product__aside-rate"></i>
+                          <i class="fas fa-star product__aside-rate"></i>
+                          <i class="fas fa-star product__aside-rate"></i>
+                          <i class="fas fa-star product__aside-rate"></i>
+                      </div>
+
+                      <div class="product__aside-price">
+                          <span class="product__aside-price-current">
+                              125.000đ
+                          </span>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="product__aside-item product__aside-item--border">
+                  <div class="product__aside-img-wrap">
+                      <img src="image/sp4.png" class="product__aside-img">
+                  </div>
+                  <div class="product__aside-title">
+                      <a href="#" class="product__aside-link">
+                          <h4 class="product__aside-link-heading"> Pate Mèo Royal Canin Mother Babycat (Lon 195g)</h4>
+                      </a>
+
+                      <div class="product__aside-rate-wrap">
+                          <i class="fas fa-star product__aside-rate"></i>
+                          <i class="fas fa-star product__aside-rate"></i>
+                          <i class="fas fa-star product__aside-rate"></i>
+                          <i class="fas fa-star product__aside-rate"></i>
+                          <i class="fas fa-star product__aside-rate"></i>
+                      </div>
+                      
+                      <div class="product__aside-price">
+                          <span class="product__aside-price-current">
+                              55.000đ
+                          </span>
+                      </div>
+                  </div>
+             </div>
+
+             <div class="product__aside-item product__aside-item--border">
+                <div class="product__aside-img-wrap">
+                    <img src="image/sp5.png" class="product__aside-img">
+                </div>
+                <div class="product__aside-title">
+                    <a href="#" class="product__aside-link">
+                        <h4 class="product__aside-link-heading"> Xúc Xích Dinh Dưỡng Taotaopet Vị Phô Mai 15g*30 cây</h4>
+                    </a>
+
+                    <div class="product__aside-rate-wrap">
+                        <i class="fas fa-star product__aside-rate"></i>
+                        <i class="fas fa-star product__aside-rate"></i>
+                        <i class="fas fa-star product__aside-rate"></i>
+                        <i class="fas fa-star product__aside-rate"></i>
+                        <i class="fas fa-star product__aside-rate"></i>
+                    </div>
+                    
+                    <div class="product__aside-price">
+                        <span class="product__aside-price-current">
+                            65.000đ
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product__aside-item product__aside-item--border">
+                <div class="product__aside-img-wrap">
+                    <img src="image/sp6.png" class="product__aside-img">
+                </div>
+                <div class="product__aside-title">
+                    <a href="#" class="product__aside-link">
+                        <h4 class="product__aside-link-heading"> Thức Ăn Hạt Cho Chó Con Poodle Royal Canin Poodle Puppy</h4>
+                    </a>
+
+                    <div class="product__aside-rate-wrap">
+                        <i class="fas fa-star product__aside-rate"></i>
+                        <i class="fas fa-star product__aside-rate"></i>
+                        <i class="fas fa-star product__aside-rate"></i>
+                        <i class="fas fa-star product__aside-rate"></i>
+                        <i class="fas fa-star product__aside-rate"></i>
+                    </div>
+                    
+                    <div class="product__aside-price">
+                        <span class="product__aside-price-current">
+                            182.000đ
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product__aside-item product__aside-item--border">
+                <div class="product__aside-img-wrap">
+                    <img src="image/sp9.png" class="product__aside-img">
+                </div>
+                <div class="product__aside-title">
+                    <a href="#" class="product__aside-link">
+                        <h4 class="product__aside-link-heading"> Đai đeo ngực hình áo vest sành điệu kèm dây dắt cho chó mèo</h4>
+                    </a>
+
+                    <div class="product__aside-rate-wrap">
+                        <i class="fas fa-star product__aside-rate"></i>
+                        <i class="fas fa-star product__aside-rate"></i>
+                        <i class="fas fa-star product__aside-rate"></i>
+                        <i class="fas fa-star product__aside-rate"></i>
+                        <i class="fas fa-star product__aside-rate"></i>
+                    </div>
+                    
+                    <div class="product__aside-price">
+                        <span class="product__aside-price-current">
+                            100.000đ
+                        </span>
+                    </div>
+                </div>
+            </div>
+          </div>
+          </div>
+      </aside>
+  </div>
+  
+  <div class="row__bg-white">
+      <div class="product__main-tab">
+          <a href="#" class="product__main-tab-link product__main-tab-link--active">
+              Mô tả
+          </a>
+      </div>
+
+      <div class="product__main-content-wrap">
+          <div class="header1">
+              <h1>Thức Ăn Cho Mèo Con Royal Canin Kitten 36</h1>
+          </div>
+  
+          <div class="product1-info">
+              <h2>Thông tin sản phẩm</h2>
+              <ul>
+                  <li><span class="label">Thương hiệu:</span> Royal Canin</li>
+                  <li><span class="label">Phù hợp cho:</span> Mèo con (từ 4 đến 12 tháng tuổi)</li>
+              </ul>
+          </div>
+  
+          <div class="benefits">
+              <h2>Lợi ích</h2>
+              <ul>
+                  <li>Hỗ trợ quá trình tăng trưởng và phát triển toàn diện</li>
+                  <li>Thúc đẩy phát triển xương và khớp</li>
+                  <li>Giúp hệ tiêu hóa khỏe mạnh</li>
+                  <li>Tăng cường sức đề kháng</li>
+                  <li>Hạn chế mùi hôi phân</li>
+              </ul>
+          </div>
+  
+          <div class="ingredients">
+              <h2>Thành phần</h2>
+              <ul>
+                  <li>Protein gia cầm, gạo, protein thực vật, chất béo động vật, bột bắp, protein động vật, bột lúa mì, gluten bắp...</li>
+              </ul>
+          </div>
+  
+          <div class="instructions">
+            <h2>Hướng dẫn sử dụng</h2>
+            <ul>
+                <li>Chia làm 2-3 bữa/ngày</li>
+                <li>Lượng cho ăn hàng ngày được khuyên nghị (gam mỗi ngày) theo trọng lượng cơ thể (kg) và hình</li>
+            </ul>   
+        </div>
+      </div>
+  </div>       
+  
+  <!------------------------------------------->
+
+  <div class="customer-reviews ">
+    <div class="comment">
+        <h3 >Đánh giá sản phẩm</h3>
+        <form id ="formgroupcomment" method="post">
+            <div class="form-group">
+                <label>Tên:</label>
+                <input name="comm_name" required="" type="text" id ='form-name' class="form-control">
+            </div>
+            <div class="form-group">
+                <label>Email:</label>
+                <input name="comm_mail" required="" type="email"  class="form-control" id="pwd">
+            </div>
+            <div class="form-group">
+                <label>Nội dung:</label>
+                <textarea name="comm_details" required="" rows="5" id ='formcontent' class="form-control"></textarea>     
+            </div>
+            <button type="submit" name="sbm" id= "submitcomment" class="btn btn-primary">Gửi</button>
+        </form> 
+    </div>
+</div>
+    
+   <div class="product-comment">
+    <div class="product-user">
+        <div class="comment-item">
+            <ul class = item-reviewer>
+                <div class="comment-item-user">
+                    <img src="image/1.png" alt="" class="comment-item-user-img">
+                    
+                    <li><b>Nguyễn Nhung</b></li> 
+                 </div>
+              
+               <br>
+                <li>2024-04-17 20:40:10</li>
+                <li>
+                   <h4>Trang web của bạn cung cấp những sản phẩm chất lượng cao cho thú cưng. Tôi đã mua một số sản phẩm từ trang web và rất hài lòng với chất lượng của chúng. Chất liệu sử dụng và công nghệ sản xuất đều rất tốt, đảm bảo an toàn và thoải mái cho thú cưng của tôi. Sản phẩm trên trang web của bạn được thiết kế và chế tạo với chất liệu và công nghệ tốt, đảm bảo độ bền cao. Tôi đã sử dụng một số sản phẩm trong thời gian dài và chúng vẫn giữ được tình trạng tốt mà không bị hỏng hóc.</h4>
+                </li>
+            </ul>
+        </div>
+        <div class="comment-item">
+            <ul class = item-reviewer> 
+            <div class="comment-item-user">
+                <img src="image/2.png" alt="" class="comment-item-user-img">
+                <li><b>Tùng Lương</b></li> 
+             </div>
+           
+               <br>
+                <li>2024-03-25 12:20:10</li>
+                <li>
+                   <h4> Việc đóng gói cẩn thận và chắc chắn của các sản phẩm trên trang web của bạn. Chúng được bọc kỹ lưỡng để đảm bảo không bị hư hỏng trong quá trình vận chuyển. Điều này cho thấy sự quan tâm của bạn đến việc bảo vệ sản phẩm và đảm bảo chúng đến tay khách hàng một cách an toàn. Tôi đã có trải nghiệm tích cực với quá trình giao hàng trên trang web của bạn. Đơn hàng của tôi đã được xử lý và giao hàng nhanh chóng. Thời gian giao hàng được đáp ứng đúng như cam kết và tôi nhận được sản phẩm trong thời gian ngắn.</h4>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div> 
+    <!-- Footer -->
+    <footer>
+      <div class="footer-section">
+        <div class="introduce">
+          <h2>VỀ CHÚNG TÔI</h2>
+          <p>
+            PetShop là cửa hàng luôn cung cấp các sản phẩm tốt nhất cho thú cưng các bạn
+            trên khắp cả nước. Chúng tôi sẽ liên tục cập 
+            nhật những sản phẩm, dịch vụ chất lượng nhất dành cho thú cưng.
+            <br> <br>      
+          </p>
+          <img src="./image/xac-nhan-bct.png" alt="Xác nhận bộ công thương" />
+        </div>
+        <div class="policy">
+          <h2>CHÍNH SÁCH MUA HÀNG</h2>
+          <ul>
+            <li><a href="#">Hình thức thanh toán</a></li>
+            <li><a href="#">Điều khoản dịch vụ</a></li>
+            <li><a href="#">Chính sách vận chuyển</a></li>
+            <li><a href="#">Chính sách đổi trả</a></li>
+            <li><a href="#">Chính sách bảo mật thông tin</a></li>
+          </ul>
+        </div>
+        <div class="contact">
+          <h2>THÔNG TIN LIÊN HỆ</h2>
+          <div class="cover-contact">
+            <img src="./image/address.svg" alt="địa chỉ" />
+            <p>18 Hạnh Thông, Phường 3, Gò Vấp, TP.HCM</p>
+          </div>
+          <div class="cover-contact">
+            <img src="./image/phone.svg" alt="SĐT" />
+            <p>0123.456.789</p>
+          </div>
+          <div class="cover-contact">
+            <img src="./image/email.svg" alt="Email" />
+            <p>petshop@gmail.com</p>
+          </div>
+          <h3>Kết nối với chúng tôi</h3>
+            <div class="footer-social">
+              <a href="#" class="footer-social-link">
+                  <img src="image/facebook.png">
+              </a>
+              <a href="#" class="footer-social-link">
+                  <img src="image/youtube.png">
+              </a>
+              <a href="#" class="footer-social-link">
+                  <img src="image/tiktok.png">
+              </a>
+              <a href="#" class="footer-social-link">
+                  <img src="image/zalo.png">
+              </a>
+            </div>
+        </div>
+      </div>
+      
+      <section class="footer__bottom">
+        <div class="container">
+            <div class="row">
+                <span class="footer__bottom-content">@Bản quyền thuộc về PetShop | Thiết kế bởi team TT2 </span>
+            </div>
+        </div>
+    </section>
+    </footer>
+
+    <script src="js/sp1.js"></script>
+    <!-- End Footer -->
+  </body>
+</html>
